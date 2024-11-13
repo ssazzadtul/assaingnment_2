@@ -57,8 +57,8 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const CircleAvatar(
-              radius: 100,
-              backgroundColor: Colors.purple,
+              radius: 90,
+              backgroundColor: Colors.grey,
 
               child: Icon(
                 Icons.icecream,
@@ -68,14 +68,14 @@ class Home extends StatelessWidget {
             ),
             const Text('Ice cream is very delicious right ?',
               style: TextStyle(fontWeight: FontWeight.bold),),
-            const SizedBox(height: 30,),
+            const SizedBox(height: 40,),
 
 
 
 
             const CircleAvatar(
-              radius: 100,
-              backgroundColor: Colors.purple,
+              radius: 90,
+              backgroundColor: Colors.grey,
 
               child: Icon(
                 Icons.unfold_less,
@@ -85,7 +85,7 @@ class Home extends StatelessWidget {
             ),
             const Text('programming is not boring if you love it',
               style: TextStyle(fontWeight: FontWeight.bold),),
-            const SizedBox(height: 30,),
+            const SizedBox(height: 40,),
 
 
 
@@ -95,8 +95,8 @@ class Home extends StatelessWidget {
 
 
             const CircleAvatar(
-              radius: 100,
-              backgroundColor: Colors.purple,
+              radius: 90,
+              backgroundColor: Colors.grey,
 
               child: Icon(
                 Icons.water_drop_sharp,
@@ -106,7 +106,7 @@ class Home extends StatelessWidget {
             ),
             const Text('if you code submited directly copy from chartgpt then mark will be 0',
               style: TextStyle(fontWeight: FontWeight.bold),),
-            const SizedBox(height: 30,)
+            const SizedBox(height: 40,)
           ],
         ),
       ),
