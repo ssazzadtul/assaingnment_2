@@ -23,9 +23,10 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('My Profile',
-        style: TextStyle(fontWeight: FontWeight.bold),),
-        backgroundColor: Colors.yellow,
+        title: Text('need blood',
+        style: TextStyle(fontWeight: FontWeight.bold),
+          textAlign: TextAlign.center,),
+        backgroundColor: Colors.red,
         elevation: 0,
         // leading: Padding(
           // padding: const EdgeInsets.all(8.0),
@@ -38,18 +39,9 @@ class Home extends StatelessWidget {
 
             },
           ),
-          IconButton(
-            icon: Icon(Icons.settings),
-            onPressed: () {
 
-            },
-          ),
-          IconButton(
-            icon: Icon(Icons.call),
-            onPressed: () {
 
-            },
-          ),
+          // ),
         ],
       ),
       body: Center(
@@ -61,29 +53,12 @@ class Home extends StatelessWidget {
               backgroundColor: Colors.grey,
 
               child: Icon(
-                Icons.icecream,
+                Icons.bloodtype,
                 size: 100,
-                color: Colors.white,
+                color: Colors.red,
               ),
             ),
-            const Text('Ice cream is very delicious right ?',
-              style: TextStyle(fontWeight: FontWeight.bold),),
-            const SizedBox(height: 40,),
-
-
-
-
-            const CircleAvatar(
-              radius: 90,
-              backgroundColor: Colors.grey,
-
-              child: Icon(
-                Icons.unfold_less,
-                size: 100,
-                color: Colors.white,
-              ),
-            ),
-            const Text('programming is not boring if you love it',
+            const Text('Donnet Blood',
               style: TextStyle(fontWeight: FontWeight.bold),),
             const SizedBox(height: 40,),
 
@@ -93,20 +68,6 @@ class Home extends StatelessWidget {
 
 
 
-
-            const CircleAvatar(
-              radius: 90,
-              backgroundColor: Colors.grey,
-
-              child: Icon(
-                Icons.water_drop_sharp,
-                size: 100,
-                color: Colors.white,
-              ),
-            ),
-            const Text('if you code submited directly copy from chartgpt then mark will be 0',
-              style: TextStyle(fontWeight: FontWeight.bold),),
-            const SizedBox(height: 40,)
           ],
         ),
       ),
